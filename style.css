@@ -1,15 +1,23 @@
 body{
+    height: 100vh;
     margin: 0vh;
     padding: 0vh;
     background-color: #0a8967;
 }
 
-.corpo{
-    margin-top: 300px;
+main{
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+}
+
+
+
+.corpo{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .formulario{
